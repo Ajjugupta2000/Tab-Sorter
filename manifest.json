@@ -1,0 +1,18 @@
+{
+    "name" : "Tab Sorter",
+    "description":"Chrome extension to sort tha tab by their urls",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"js/bg.js"
+    },
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "permissions": ["tabs"],
+    "icons":{
+        "16":"images/logo.png",
+        "32":"images/logo.png",
+        "48":"images/logo.png"
+    }
+}
